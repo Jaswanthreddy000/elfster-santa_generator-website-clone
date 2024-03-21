@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link  rel="stylesheet" href="project.css"  />
+       <link  rel="stylesheet" href="form.css"  />
+       <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    
+        <div class="fullbody">
+            <div class="title">
+                <span>elfster</span> 
+            </div> 
+            <div class="spacer"></div>
+            <div class="container-contain">
+              <div class="container">
+                <h1 class="form-title">Start Your Secret Santa</h1>
+                <p>Organize your Elfster exchange lickety-split. You'll be done in less than two minutes. Then get ready to exchange gifts! Already did this last year? Use your previous exchanges. <a style="color: black;"href="#">Use your previous exchanges.</a></p>
+                <h2>Enter Names</h2>
+                <form>
+                  <label for="your-name" class="your-name">Your Name</label>
+                  <input type="text" id="your-name" name="your-name">
+            
+                  <div class="input-row">
+                    <input type="radio" id="organize-and-participate" name="role" value="organize-and-participate" checked>
+                    <label class="selector-label" for="organize-and-participate">I'm organizing and participating</label>  
+                  </div>
+            
+                  <div class="input-row">
+                    <input type="radio" id="just-organizing" name="role" value="just-organizing">
+                    <label class="selector-label" for="just-organizing">I'm just organizing</label>
+                  </div>
+            
+                  <p style="padding-bottom:0px;">Add Your Friends</p>
+                  <p class="link" style="color: teal;">Got a big group? <a href="#">Click here.</a></p>
+            
+                  <div class="input-group" id="name-inputs">
+                    <!-- Initial inputs will be added dynamically here -->
+                  </div>
+                  
+                  <a class="addnames" onclick="addNameInput(event)">+ Add more names?</a>
+            
+                  <button class="submit" type="submit">get the party started <div class='right-arrow '></div></button>
+                </form>
+                <p style=" text-align:center; font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.4rem;color: rgba(0, 0, 0, .85);
+                 padding-top: 1rem;">
+                 Don't fret! You can add more friends (or remove them) later, no sweat.</p>
+              </div>
+              <!-- <div class="image-overlay">
+                <img src="hero-badge-desktop.png" alt="Image 2" class="image2">
+                <img src="hero-badge-desktop-2.png" alt="Image 3" class="image3">
+              </div> -->
+            </div>
+            <div class="body-bottom">
+                <div class="container1">
+                    <div class="item1">
+                      <div class="image-text-wrapper">
+                        <img src="handshake-heart.png" class="icon1" />
+                        <span>Trusted by 33 million people</span>
+                      </div>
+                    </div>
+                    <span class="separator">|</span> <!-- Use span for separator -->
+                    <div class="item1">
+                      <div class="image-text-wrapper">
+                        <img  src="stars-group.png" class="stars" />
+                        <span>4.9 stars | 234K ratings</span>
+                      </div>
+                    </div>
+                    <span class="separator">|</span> <!-- Use span for separator -->
+                    <div class="item1">
+                      <div class="image-text-wrapper">
+                        <img src="trophy.png" class="icon1" />
+                        <span>#1 Secret Santa Generator</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="footer-first">
+                          <div class="footer-first-1">
+                                <a href="https://www.elfster.com/" title="Elfster" data-logo-link="" class="jxf4m">
+                                  <span class="title">elfster</span>
+                                </a>
+                            </div>
+
+                          
+
+                            <div class="footer-first-2">
+                              <a href="https://www.elfster.com/content/about/" class="a7cdD">About</a>
+                              <a href="https://www.elfster.com/contact-us/" class="a7cdD">Advertise with Us</a>
+                              <a href="https://www.elfster.com/help/" class="a7cdD">Help</a>
+                              <a href="https://www.elfster.com/help/" class="a7cdD">Tell a Friend</a>
+                            </div>
+
+                            <div class="footer-first-3">
+                              
+                                <div class="social-container">
+                                  <div class="social-container-text">Follow on Social:</div>
+                                  <div class="social-icons-wrapper">
+                                    <a href="https://www.instagram.com/elfster" title="Elfster on Instagram" target="_blank" rel="nofollow noopener" class="social-link">
+                                      <i class="fab fa-instagram social-icon"></i>
+                                    </a>
+                                    <a href="https://www.twitter.com/elfster" title="Elfster on Twitter" target="_blank" rel="nofollow noopener" class="social-link">
+                                      <i class="fab fa-twitter social-icon"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/elfster" title="Elfster on Facebook" target="_blank" rel="nofollow noopener" class="social-link">
+                                      <i class="fab fa-facebook-f social-icon"></i>
+                                    </a>
+                                    <a href="https://www.pinterest.com/elfster" title="Elfster on Pinterest" target="_blank" rel="nofollow noopener" class="social-link">
+                                      <i class="fab fa-pinterest social-icon"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com/channel/UCEo6B92h4X1YSUJMdQeLUTA" title="Elfster on YouTube" target="_blank" rel="nofollow noopener" class="social-link">
+                                      <i class="fab fa-youtube social-icon"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                        
+                              
+                                <div class="social-container-1">
+                                  <div class="social-container-text1">Download the App:</div>
+                                  <div class="social-icons-wrapper">
+                                    <div>
+                                      <img class="download" src="download.png" />
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="social-container-1">
+                                    <div class="social-container-text1"><span>Sign Up for Gifts, Giveaways &amp; Good News!</span></div>
+                                      <div class="social-container-email">
+                                        <input type="text" autocorrect="off" spellcheck="false" autocomplete="off" placeholder="Enter Email" value="" >
+                                      </div>
+                                    </div>
+                                </div>
+                      </div>
+                      <div class="footer-last">
+                            <div class="footer-last-1">
+                              <div class="footer-last-1-inside"><span>© 2024 Elfster, Inc.</span></div>
+                                  <div>
+                                      <ul class="footer-last-1-inside">
+                                        <li><a href="https://www.elfster.com/content/privacy/" class="SpP-T">Privacy Policy</a></li>
+                                        <li>|</li>
+                                        <li ><a href="https://www.elfster.com/content/your-california-privacy-rights/" class="SpP-T">CA Privacy Rights</a></li>
+                                        <li>|</li>
+                                        <li ><a href="https://www.elfster.com/content/tos/" class="SpP-T">Terms Of Service</a></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                                <div class="footer-last-1">
+                                  <div class="dropdown">
+                                      <div class="selected-country" onclick="toggleDropdown()">
+                                          <span id="selectedCountry">USA</span>
+                                          <div class="arrow-up"></div>
+                                      </div>
+                                      <div class="dropdown-content" id="dropdownContent">
+                                          <span onclick="selectCountry('USA')">USA</span>
+                                          <span onclick="selectCountry('Canada')">Canada</span>
+                                          <span onclick="selectCountry('UK')">UK</span>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              
+                              
+                          </div>
+                      </div>
+             </div>
+         </div>
+        <script src="project.js"></script>
+    </body>
+</html>

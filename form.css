@@ -1,0 +1,112 @@
+.container-contain{
+    background-image: url("bg.png");
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: visible; 
+    background-repeat: no-repeat; 
+}
+.container {
+    width: 80%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    overflow: auto; 
+  }
+  .form-title{
+      text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Add margin bottom */
+  }
+
+ label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .selector-label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .input-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 10px; /* Add margin bottom for gap */
+  }
+  .submit{
+    background-color: teal;
+    border-radius: 20px;
+    height: 50px;
+    color:white;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+  }
+  .your-name {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  h2 {
+    color: teal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: teal;
+  }
+
+  .link {
+    color: black;
+  }
+   .right-arrow{
+      display: inline-block;
+      margin: 30px;
+      width: 10px;
+      height: 10px;
+      border-top: 2px solid white;
+      border-left: 2px solid white;
+      transform-origin: center;
+      transform: rotate(135deg);
+   }
+  
+   .right-arrow::after{
+      content: "";
+      display: block;
+      width: 2px;
+      height: 45px;
+      background-color: white;
+      transform: rotate(-45deg) translate(15px, 4px);
+   }
